@@ -3,7 +3,7 @@ using Microsoft.Extensions.Options;
 
 namespace SecureAPI.Validators
 {
-    public class FluentValidateOptions<TOptions>
+    public sealed class FluentValidateOptions<TOptions>
         : IValidateOptions<TOptions>
         where TOptions : class
     {

@@ -3,7 +3,7 @@ using SecureAPI.Configurations;
 
 namespace SecureAPI.Validators
 {
-    public class JwtConfigValidator : AbstractValidator<JwtConfig>
+    public sealed class JwtConfigValidator : AbstractValidator<JwtConfig>
     {
         public JwtConfigValidator()
         {
